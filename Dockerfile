@@ -1,3 +1,3 @@
-FROM n8nio/n8n:latest
-EXPOSE 10000
-CMD ["n8n"]
+FROM n8nio/n8n:1.54.1
+EXPOSE 5678 
+
