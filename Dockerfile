@@ -1,5 +1,4 @@
-FROM n8nio/n8n:1.54.1
-EXPOSE 5678 
+FROM n8nio/n8n
 
-CMD ["sh", "-c", "n8n start --port $PORT"]
+CMD ["n8n"]
 
